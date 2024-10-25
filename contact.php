@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'qomartop14@gmail.com'; // Ganti dengan email pengirim
-        $mail->Password   = 'hitbvqddegywfqdp';    // Ganti dengan App Password
+        $mail->Password   = 'abcdefghijklmnop';    // Ganti dengan App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
